@@ -126,7 +126,7 @@ INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES
 (
     (SELECT id FROM animals WHERE name = 'Agumon'),
     (SELECT id FROM vets WHERE name = 'William Tatcher'),
-    ('May 24, 2018')
+    ('May 24, 2020')
 ),
 (
     (SELECT id FROM animals WHERE name = 'Agumon'),
@@ -151,7 +151,7 @@ INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES
 (
     (SELECT id FROM animals WHERE name = 'Pikachu'),
     (SELECT id FROM vets WHERE name = 'Maisy Smith'),
-    ('Feb 14, 2020')
+    ('May 14, 2020')
 ),
 (
     (SELECT id FROM animals WHERE name = 'Devimon'),
